@@ -1,0 +1,1356 @@
+Apr 17 22:14:49.605: vmx| Log for VMware Workstation pid=4324 version=7.0.0 build=build-203739 option=Release
+Apr 17 22:14:49.605: vmx| The process is 32-bit.
+Apr 17 22:14:49.605: vmx| Host codepage=windows-1252 encoding=windows-1252
+Apr 17 22:14:49.605: vmx| Hostname=Euan-PC
+Apr 17 22:14:49.618: vmx| IP=(Unknown)
+Apr 17 22:14:49.618: vmx| IP=(Unknown)
+Apr 17 22:14:49.618: vmx| IP=(Unknown)
+Apr 17 22:14:49.618: vmx| IP=(Unknown)
+Apr 17 22:14:49.618: vmx| IP=192.168.19.1
+Apr 17 22:14:49.618: vmx| IP=192.168.189.1
+Apr 17 22:14:49.618: vmx| IP=192.168.1.6
+Apr 17 22:14:49.619: vmx| Command line: "C:\Program Files\VMware\VMware Workstation\vmware-vmx.exe" "-T" "querytoken" "-s" "vmx.stdio.keep=TRUE" "-#" "product=1;name=VMware Workstation;version=7.0.0;buildnumber=203739;licensename=VMware Workstation;licenseversion=7.0;" "-@" "pipe=\\.\pipe\vmx458f7f7868b611c6;" "C:\Users\Euan\Documents\Virtual Machines\Euan_Hume_WebArcAss3\Euan_Hume_WebArcAss3.vmx"
+Apr 17 22:14:49.619: vmx| Msg_SetLocale: HostLocale=windows-1252 UserLocale=NULL
+Apr 17 22:14:49.674: vmx| UI Connecting to pipe '\\.\pipe\vmx458f7f7868b611c6' with user '(null)'
+Apr 17 22:14:49.675: vmx| VMXVmdb: Local connection timeout: 60000 ms.
+Apr 17 22:14:49.701: vmx| Vix: [1364 mainDispatch.c:369]: VMAutomation: Initializing VMAutomation.
+Apr 17 22:14:49.702: vmx| Vix: [1364 mainDispatch.c:391]: VMAutomation: Detected the VM is not managed
+Apr 17 22:14:49.702: vmx| Vix: [1364 mainDispatch.c:555]: VMAutomationOpenListenerSocket() listening
+Apr 17 22:14:49.705: vmx| Vix: [1364 mainDispatch.c:3485]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1
+Apr 17 22:14:49.706: vmx| Transitioned vmx/execState/val to poweredOff
+Apr 17 22:14:49.706: vmx| Vix: [1364 mainDispatch.c:3485]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1
+Apr 17 22:14:49.706: vmx| Vix: [1364 mainDispatch.c:3485]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1877, success=1
+Apr 17 22:14:49.706: vmx| Vix: [1364 mainDispatch.c:3485]: VMAutomation_ReportPowerOpFinished: statevar=3, newAppState=1881, success=1
+Apr 17 22:14:49.706: vmx| HOSTINFO 43636685575 @ 1948300Hz -> 0 @ 1000000Hz
+Apr 17 22:14:49.706: vmx| HOSTINFO ((x * 2204469176) >> 32) + -22397313335
+Apr 17 22:14:49.707: vmx| HD: host version is 6.1.7600
+Apr 17 22:14:49.707: vmx| HD: addr 82c7b3c3
+Apr 17 22:14:49.709: vmx| HD: 82d47358, 0
+Apr 17 22:14:49.709: vmx| VMMon_GetkHzEstimate: Calculated 1946477 kHz
+Apr 17 22:14:49.710: vmx| VMMon_RememberkHzEstimate: Calculated 2000000 kHz
+Apr 17 22:14:49.710: vmx| TSC kHz estimates: vmmon 1946477, osReported 2000000.  Using 2000000 kHz.
+Apr 17 22:14:49.710: vmx| CPU # 0 TSC = 22367231628200
+Apr 17 22:14:49.710: vmx| CPU # 1 TSC = 22367231628220
+Apr 17 22:14:49.710: vmx| TSC delta 20
+Apr 17 22:14:49.710: vmx| CPU # 0 TSC = 22367231736540
+Apr 17 22:14:49.710: vmx| CPU # 1 TSC = 22367231736560
+Apr 17 22:14:49.710: vmx| TSC delta 20
+Apr 17 22:14:49.710: vmx| CPU # 0 TSC = 22367231839720
+Apr 17 22:14:49.710: vmx| CPU # 1 TSC = 22367231839750
+Apr 17 22:14:49.710: vmx| TSC delta 30
+Apr 17 22:14:49.710: vmx| CPU # 0 TSC = 22367231941570
+Apr 17 22:14:49.710: vmx| CPU # 1 TSC = 22367231941570
+Apr 17 22:14:49.710: vmx| TSC delta 0
+Apr 17 22:14:49.710: vmx| TSC min delta 0
+Apr 17 22:14:49.710: vmx| PTSC: RefClockToTSC 1948300Hz -> 2000000000Hz
+Apr 17 22:14:49.710: vmx| PTSC: RefClockToTSC ((x * 2152801929) >> 21)
+Apr 17 22:14:49.710: vmx| PTSC: using reference clock
+Apr 17 22:14:49.710: vmx| CPUID[0] vendor: GenuineIntel
+Apr 17 22:14:49.710: vmx| CPUID[0]   name: Pentium(R) Dual-Core CPU       T4200  @ 2.00GHz
+Apr 17 22:14:49.710: vmx| CPUID[0] level 00000000, 0: 0x0000000d 0x756e6547 0x6c65746e 0x49656e69
+Apr 17 22:14:49.710: vmx| CPUID[0] level 00000001, 0: 0x0001067a 0x00020800 0x0c00e39d 0xbfebfbff
+Apr 17 22:14:49.710: vmx| CPUID[0] level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb43078
+Apr 17 22:14:49.710: vmx| CPUID[0] level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.710: vmx| CPUID[0] level 00000004, 0: 0x04000121 0x01c0003f 0x0000003f 0x00000001
+Apr 17 22:14:49.710: vmx| CPUID[0] level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00002220
+Apr 17 22:14:49.710: vmx| CPUID[0] level 00000006, 0: 0x00000001 0x00000002 0x00000003 0x00000000
+Apr 17 22:14:49.710: vmx| CPUID[0] level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.710: vmx| CPUID[0] level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.710: vmx| CPUID[0] level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.710: vmx| CPUID[0] level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+Apr 17 22:14:49.710: vmx| CPUID[0] level 0000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.710: vmx| CPUID[0] level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.710: vmx| CPUID[0] level 0000000d, 0: 0x00000003 0x00000240 0x00000240 0x00000000
+Apr 17 22:14:49.711: vmx| CPUID[0] level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.711: vmx| CPUID[0] level 80000001, 0: 0x00000000 0x00000000 0x00000001 0x20100000
+Apr 17 22:14:49.711: vmx| CPUID[0] level 80000002, 0: 0x746e6550 0x286d7569 0x44202952 0x2d6c6175
+Apr 17 22:14:49.711: vmx| CPUID[0] level 80000003, 0: 0x65726f43 0x55504320 0x20202020 0x54202020
+Apr 17 22:14:49.711: vmx| CPUID[0] level 80000004, 0: 0x30303234 0x20402020 0x30302e32 0x007a4847
+Apr 17 22:14:49.711: vmx| CPUID[0] level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.711: vmx| CPUID[0] level 80000006, 0: 0x00000000 0x00000000 0x04004040 0x00000000
+Apr 17 22:14:49.711: vmx| CPUID[0] level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.711: vmx| CPUID[0] level 80000008, 0: 0x00003024 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.711: vmx| CPUID[1] vendor: GenuineIntel
+Apr 17 22:14:49.711: vmx| CPUID[1]   name: Pentium(R) Dual-Core CPU       T4200  @ 2.00GHz
+Apr 17 22:14:49.711: vmx| CPUID[1] level 00000000, 0: 0x0000000d 0x756e6547 0x6c65746e 0x49656e69
+Apr 17 22:14:49.711: vmx| CPUID[1] level 00000001, 0: 0x0001067a 0x01020800 0x0c00e39d 0xbfebfbff
+Apr 17 22:14:49.711: vmx| CPUID[1] level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb43078
+Apr 17 22:14:49.711: vmx| CPUID[1] level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.711: vmx| CPUID[1] level 00000004, 0: 0x04000121 0x01c0003f 0x0000003f 0x00000001
+Apr 17 22:14:49.711: vmx| CPUID[1] level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00002220
+Apr 17 22:14:49.711: vmx| CPUID[1] level 00000006, 0: 0x00000001 0x00000002 0x00000003 0x00000000
+Apr 17 22:14:49.711: vmx| CPUID[1] level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.711: vmx| CPUID[1] level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.711: vmx| CPUID[1] level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.711: vmx| CPUID[1] level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+Apr 17 22:14:49.711: vmx| CPUID[1] level 0000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.711: vmx| CPUID[1] level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.711: vmx| CPUID[1] level 0000000d, 0: 0x00000003 0x00000240 0x00000240 0x00000000
+Apr 17 22:14:49.711: vmx| CPUID[1] level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.711: vmx| CPUID[1] level 80000001, 0: 0x00000000 0x00000000 0x00000001 0x20100000
+Apr 17 22:14:49.711: vmx| CPUID[1] level 80000002, 0: 0x746e6550 0x286d7569 0x44202952 0x2d6c6175
+Apr 17 22:14:49.711: vmx| CPUID[1] level 80000003, 0: 0x65726f43 0x55504320 0x20202020 0x54202020
+Apr 17 22:14:49.711: vmx| CPUID[1] level 80000004, 0: 0x30303234 0x20402020 0x30302e32 0x007a4847
+Apr 17 22:14:49.711: vmx| CPUID[1] level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.711: vmx| CPUID[1] level 80000006, 0: 0x00000000 0x00000000 0x04004040 0x00000000
+Apr 17 22:14:49.711: vmx| CPUID[1] level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.711: vmx| CPUID[1] level 80000008, 0: 0x00003024 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.711: vmx| hostCPUID vendor: GenuineIntel
+Apr 17 22:14:49.711: vmx| hostCPUID   name: Pentium(R) Dual-Core CPU       T4200  @ 2.00GHz
+Apr 17 22:14:49.711: vmx| hostCPUID level 00000000, 0: 0x0000000d 0x756e6547 0x6c65746e 0x49656e69
+Apr 17 22:14:49.711: vmx| hostCPUID level 00000001, 0: 0x0001067a 0x00020800 0x0c00e39d 0xbfebfbff
+Apr 17 22:14:49.711: vmx| hostCPUID level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb43078
+Apr 17 22:14:49.711: vmx| hostCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.711: vmx| hostCPUID level 00000004, 0: 0x04000121 0x01c0003f 0x0000003f 0x00000001
+Apr 17 22:14:49.711: vmx| hostCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00002220
+Apr 17 22:14:49.711: vmx| hostCPUID level 00000006, 0: 0x00000001 0x00000002 0x00000003 0x00000000
+Apr 17 22:14:49.711: vmx| hostCPUID level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.711: vmx| hostCPUID level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.711: vmx| hostCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.711: vmx| hostCPUID level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+Apr 17 22:14:49.711: vmx| hostCPUID level 0000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.711: vmx| hostCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.711: vmx| hostCPUID level 0000000d, 0: 0x00000003 0x00000240 0x00000240 0x00000000
+Apr 17 22:14:49.711: vmx| hostCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.711: vmx| hostCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000001 0x20100000
+Apr 17 22:14:49.711: vmx| hostCPUID level 80000002, 0: 0x746e6550 0x286d7569 0x44202952 0x2d6c6175
+Apr 17 22:14:49.711: vmx| hostCPUID level 80000003, 0: 0x65726f43 0x55504320 0x20202020 0x54202020
+Apr 17 22:14:49.711: vmx| hostCPUID level 80000004, 0: 0x30303234 0x20402020 0x30302e32 0x007a4847
+Apr 17 22:14:49.711: vmx| hostCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.712: vmx| hostCPUID level 80000006, 0: 0x00000000 0x00000000 0x04004040 0x00000000
+Apr 17 22:14:49.712: vmx| hostCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.712: vmx| hostCPUID level 80000008, 0: 0x00003024 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:49.712: vmx| CPUID Maximum Physical Address Bits supported across all CPUs: 36
+Apr 17 22:14:49.721: vmx| Host ACPI: can't find SRAT
+Apr 17 22:14:49.721: vmx| Host: SRAT tables not found in memory
+Apr 17 22:14:49.721: vmx| Setting thread 36 stack size to 1048576.
+Apr 17 22:14:49.721: WinNotifyThread| WinNotify thread is alive
+Apr 17 22:14:49.962: vmx| ConfigCheck: No rules file found. Checks are disabled.
+Apr 17 22:14:49.962: vmx| changing directory to C:\Users\Euan\Documents\Virtual Machines\Euan_Hume_WebArcAss3\.
+Apr 17 22:14:49.962: vmx| Config file: C:\Users\Euan\Documents\Virtual Machines\Euan_Hume_WebArcAss3\Euan_Hume_WebArcAss3.vmx
+Apr 17 22:14:49.963: vmx| Vix: [1364 mainDispatch.c:3485]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1
+Apr 17 22:14:49.963: vmx| Vix: [1364 mainDispatch.c:3485]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1878, success=1
+Apr 17 22:14:49.995: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Apr 17 22:14:50.055: vmx| VMXVmdbCbVmVmxExecState: Exec state change requested to state poweredOn without reset, hard.
+Apr 17 22:14:50.055: vmx| PowerOn
+Apr 17 22:14:50.055: vmx| VMX_PowerOn: VMX build 203739, UI build 203739
+Apr 17 22:14:50.055: vmx| Host: WIN32 highest NUMA node 0
+Apr 17 22:14:50.055: vmx| Host: WIN32 NUMA node 0, CPU mask 0x0000000000000003
+Apr 17 22:14:50.064: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Apr 17 22:14:50.073: vmx| Vix: [1364 mainDispatch.c:3485]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1871, success=1
+Apr 17 22:14:50.073: vmx| HOST Windows version 6.1, build 7600, platform 2, "", SMP
+Apr 17 22:14:50.073: vmx| DICT --- USER PREFERENCES C:\Users\Euan\AppData\Roaming\VMware\preferences.ini 
+Apr 17 22:14:50.073: vmx| DICT       pref.eula.0.appName = VMware Player
+Apr 17 22:14:50.073: vmx| DICT   pref.eula.0.buildNumber = 203739
+Apr 17 22:14:50.073: vmx| DICT       pref.usbDev.maxDevs = 0
+Apr 17 22:14:50.073: vmx| DICT pref.keyboardAndMouse.maxProfiles = 0
+Apr 17 22:14:50.073: vmx| DICT   webUpdate.lastCheckTime = 1302986023
+Apr 17 22:14:50.073: vmx| DICT webUpdate.updatesAvailable = TRUE
+Apr 17 22:14:50.073: vmx| DICT       pref.eula.1.appName = VMware Workstation
+Apr 17 22:14:50.073: vmx| DICT   pref.eula.1.buildNumber = 203739
+Apr 17 22:14:50.073: vmx| DICT vmWizard.installMediaType = iso
+Apr 17 22:14:50.073: vmx| DICT         vmWizard.guestKey = ubuntu
+Apr 17 22:14:50.073: vmx| DICT vmWizard.mruISO0.isoLocation = C:\Users\Euan\Downloads\ubuntu-10.04.2-server-i386.iso
+Apr 17 22:14:50.073: vmx| DICT   pref.view.toolbars.list = _SEP_,POWER_OFF,SUSPEND,POWER_ON,RESET,POLICIES,PKG_SETTINGS,NEW_PKG,POCKET_ACE,PREVIEW,SNAPSHOT,REVERT,SNAPSHOT_MANAGER,FAVORITES,QUICK_SWITCH,FULL_SCREEN,UNITY,SUMMARY,APPLIANCE,CONSOLE,QUICK_MINIMIZE,FILE_EXIT,INSTANCE_DETAILS,INSTANCE_REACT,INSTANCE_DEACT,REPLAY_PLAY,REPLAY_RECORD
+Apr 17 22:14:50.073: vmx| DICT   pref.ws.currentObj.path = /vm/#458f7f7868b611c6/
+Apr 17 22:14:50.073: vmx| DICT   pref.ws.currentObj.type = vm
+Apr 17 22:14:50.073: vmx| DICT pref.ws.openedObj0.present = TRUE
+Apr 17 22:14:50.073: vmx| DICT   pref.ws.openedObj0.name = Home
+Apr 17 22:14:50.073: vmx| DICT pref.ws.openedObj1.present = TRUE
+Apr 17 22:14:50.073: vmx| DICT   pref.ws.openedObj1.type = vm
+Apr 17 22:14:50.073: vmx| DICT   pref.ws.openedObj1.path = /vm/#458f7f7868b611c6/
+Apr 17 22:14:50.073: vmx| DICT   pref.ws.openedObj1.file = C:\Users\Euan\Documents\Virtual Machines\Euan_Hume_WebArcAss3\Euan_Hume_WebArcAss3.vmx
+Apr 17 22:14:50.073: vmx| DICT   pref.ws.openedObj1.name = Euan_Hume_WebArcAss3 
+Apr 17 22:14:50.073: vmx| DICT  pref.ws.openedObj.maxNum = 2
+Apr 17 22:14:50.073: vmx| DICT       pref.placement.left = 0
+Apr 17 22:14:50.073: vmx| DICT        pref.placement.top = 0
+Apr 17 22:14:50.073: vmx| DICT      pref.placement.right = 860
+Apr 17 22:14:50.074: vmx| DICT     pref.placement.bottom = 619
+Apr 17 22:14:50.074: vmx| DICT  hint.vmui.showAllUSBDevs = FALSE
+Apr 17 22:14:50.074: vmx| DICT --- USER DEFAULTS C:\Users\Euan\AppData\Roaming\VMware\config.ini 
+Apr 17 22:14:50.074: vmx| DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+Apr 17 22:14:50.074: vmx| DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+Apr 17 22:14:50.074: vmx| DICT --- COMMAND LINE
+Apr 17 22:14:50.074: vmx| DICT            vmx.stdio.keep = TRUE
+Apr 17 22:14:50.074: vmx| DICT             gui.available = TRUE
+Apr 17 22:14:50.074: vmx| DICT --- CONFIGURATION C:\Users\Euan\Documents\Virtual Machines\Euan_Hume_WebArcAss3\Euan_Hume_WebArcAss3.vmx 
+Apr 17 22:14:50.074: vmx| DICT            config.version = 8
+Apr 17 22:14:50.074: vmx| DICT         virtualHW.version = 7
+Apr 17 22:14:50.074: vmx| DICT                  maxvcpus = 4
+Apr 17 22:14:50.074: vmx| DICT             scsi0.present = TRUE
+Apr 17 22:14:50.074: vmx| DICT          scsi0.virtualDev = lsilogic
+Apr 17 22:14:50.074: vmx| DICT                   memsize = 512
+Apr 17 22:14:50.074: vmx| DICT           scsi0:0.present = TRUE
+Apr 17 22:14:50.074: vmx| DICT          scsi0:0.fileName = Euan_Hume_WebArcAss3.vmdk
+Apr 17 22:14:50.074: vmx| DICT            ide0:0.present = FALSE
+Apr 17 22:14:50.074: vmx| DICT           ide0:0.fileName = auto detect
+Apr 17 22:14:50.074: vmx| DICT         ide0:0.deviceType = cdrom-raw
+Apr 17 22:14:50.074: vmx| DICT            ide1:0.present = TRUE
+Apr 17 22:14:50.074: vmx| DICT           ide1:0.fileName = auto detect
+Apr 17 22:14:50.074: vmx| DICT         ide1:0.deviceType = cdrom-raw
+Apr 17 22:14:50.074: vmx| DICT          floppy0.fileType = device
+Apr 17 22:14:50.074: vmx| DICT          floppy0.fileName = 
+Apr 17 22:14:50.074: vmx| DICT      floppy0.clientDevice = FALSE
+Apr 17 22:14:50.074: vmx| DICT         ethernet0.present = TRUE
+Apr 17 22:14:50.074: vmx| DICT  ethernet0.connectionType = nat
+Apr 17 22:14:50.074: vmx| DICT   ethernet0.wakeOnPcktRcv = FALSE
+Apr 17 22:14:50.074: vmx| DICT     ethernet0.addressType = generated
+Apr 17 22:14:50.074: vmx| DICT               usb.present = TRUE
+Apr 17 22:14:50.074: vmx| DICT              ehci.present = TRUE
+Apr 17 22:14:50.076: vmx| DICT             sound.present = TRUE
+Apr 17 22:14:50.076: vmx| DICT            sound.fileName = -1
+Apr 17 22:14:50.076: vmx| DICT          sound.autodetect = TRUE
+Apr 17 22:14:50.076: vmx| DICT        pciBridge0.present = TRUE
+Apr 17 22:14:50.076: vmx| DICT        pciBridge4.present = TRUE
+Apr 17 22:14:50.076: vmx| DICT     pciBridge4.virtualDev = pcieRootPort
+Apr 17 22:14:50.076: vmx| DICT      pciBridge4.functions = 8
+Apr 17 22:14:50.076: vmx| DICT        pciBridge5.present = TRUE
+Apr 17 22:14:50.076: vmx| DICT     pciBridge5.virtualDev = pcieRootPort
+Apr 17 22:14:50.076: vmx| DICT      pciBridge5.functions = 8
+Apr 17 22:14:50.076: vmx| DICT        pciBridge6.present = TRUE
+Apr 17 22:14:50.076: vmx| DICT     pciBridge6.virtualDev = pcieRootPort
+Apr 17 22:14:50.076: vmx| DICT      pciBridge6.functions = 8
+Apr 17 22:14:50.076: vmx| DICT        pciBridge7.present = TRUE
+Apr 17 22:14:50.076: vmx| DICT     pciBridge7.virtualDev = pcieRootPort
+Apr 17 22:14:50.076: vmx| DICT      pciBridge7.functions = 8
+Apr 17 22:14:50.076: vmx| DICT             vmci0.present = TRUE
+Apr 17 22:14:50.076: vmx| DICT    roamingVM.exitBehavior = go
+Apr 17 22:14:50.076: vmx| DICT               displayName = Euan_Hume_WebArcAss3 
+Apr 17 22:14:50.076: vmx| DICT                   guestOS = ubuntu
+Apr 17 22:14:50.076: vmx| DICT                     nvram = Euan_Hume_WebArcAss3.nvram
+Apr 17 22:14:50.076: vmx| DICT virtualHW.productCompatibility = hosted
+Apr 17 22:14:50.076: vmx| DICT        extendedConfigFile = Euan_Hume_WebArcAss3.vmxf
+Apr 17 22:14:50.076: vmx| DICT ethernet0.generatedAddress = 00:0c:29:17:84:d3
+Apr 17 22:14:50.076: vmx| DICT            tools.syncTime = FALSE
+Apr 17 22:14:50.076: vmx| DICT             uuid.location = 56 4d 0b d7 4f 03 75 65-fb 02 5f 6f 9b 17 84 d3
+Apr 17 22:14:50.076: vmx| DICT                 uuid.bios = 56 4d 0b d7 4f 03 75 65-fb 02 5f 6f 9b 17 84 d3
+Apr 17 22:14:50.076: vmx| DICT             cleanShutdown = TRUE
+Apr 17 22:14:50.076: vmx| DICT          replay.supported = TRUE
+Apr 17 22:14:50.077: vmx| DICT           replay.filename = 
+Apr 17 22:14:50.077: vmx| DICT              scsi0:0.redo = 
+Apr 17 22:14:50.077: vmx| DICT  pciBridge0.pciSlotNumber = 17
+Apr 17 22:14:50.077: vmx| DICT  pciBridge4.pciSlotNumber = 21
+Apr 17 22:14:50.077: vmx| DICT  pciBridge5.pciSlotNumber = 22
+Apr 17 22:14:50.077: vmx| DICT  pciBridge6.pciSlotNumber = 23
+Apr 17 22:14:50.077: vmx| DICT  pciBridge7.pciSlotNumber = 24
+Apr 17 22:14:50.077: vmx| DICT       scsi0.pciSlotNumber = 16
+Apr 17 22:14:50.077: vmx| DICT         usb.pciSlotNumber = 32
+Apr 17 22:14:50.077: vmx| DICT   ethernet0.pciSlotNumber = 33
+Apr 17 22:14:50.077: vmx| DICT       sound.pciSlotNumber = 34
+Apr 17 22:14:50.077: vmx| DICT        ehci.pciSlotNumber = 35
+Apr 17 22:14:50.077: vmx| DICT       vmci0.pciSlotNumber = 36
+Apr 17 22:14:50.077: vmx| DICT  vmotion.checkpointFBSize = 16777216
+Apr 17 22:14:50.077: vmx| DICT ethernet0.generatedAddressOffset = 0
+Apr 17 22:14:50.077: vmx| DICT                  vmci0.id = -1692957485
+Apr 17 22:14:50.077: vmx| DICT        floppy0.autodetect = TRUE
+Apr 17 22:14:50.077: vmx| DICT         ide0:0.autodetect = TRUE
+Apr 17 22:14:50.077: vmx| DICT         ide1:0.autodetect = TRUE
+Apr 17 22:14:50.077: vmx| DICT     ide1:0.startConnected = FALSE
+Apr 17 22:14:50.077: vmx| DICT    floppy0.startConnected = FALSE
+Apr 17 22:14:50.077: vmx| DICT --- USER DEFAULTS C:\Users\Euan\AppData\Roaming\VMware\config.ini 
+Apr 17 22:14:50.077: vmx| DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+Apr 17 22:14:50.077: vmx| DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+Apr 17 22:14:50.077: vmx| DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini 
+Apr 17 22:14:50.079: vmx| Vix: [1364 mainDispatch.c:3485]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1
+Apr 17 22:14:50.087: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Apr 17 22:14:50.097: vmx| hostCpuFeatures = 0x406001fc
+Apr 17 22:14:50.097: vmx| hostNumPerfCounters = 2
+Apr 17 22:14:50.097: vmx| CPU0: PMC: bad VMENTRY_CTL_LOAD_CPGC or VMEXIT_CTL_LOAD_CPGC
+Apr 17 22:14:50.097: vmx| PMC: Patch Level 0xa07, smmFrz (hw): (1)
+Apr 17 22:14:50.097: vmx| PMC: IA32, Penryn [c:0 f:1 e:0]
+Apr 17 22:14:50.097: vmx| CPU1: PMC: bad VMENTRY_CTL_LOAD_CPGC or VMEXIT_CTL_LOAD_CPGC
+Apr 17 22:14:50.097: vmx| PMC: Patch Level 0xa07, smmFrz (hw): (1)
+Apr 17 22:14:50.097: vmx| PMC: IA32, Penryn [c:0 f:1 e:0]
+Apr 17 22:14:50.097: vmx| MONITOR MODE: allowed modes          : BT
+Apr 17 22:14:50.097: vmx| MONITOR MODE: user requested modes   : BT HV HWMMU
+Apr 17 22:14:50.097: vmx| MONITOR MODE: guestOS preferred modes: HWMMU BT HV
+Apr 17 22:14:50.097: vmx| MONITOR MODE: filtered list          : BT
+Apr 17 22:14:50.097: vmx| HV Settings: virtual exec = 'software'; virtual mmu = 'software'
+Apr 17 22:14:50.113: vmx| Host display topology 1366x768.
+Apr 17 22:14:50.113: vmx| SVGA: Max size 2560x1600
+Apr 17 22:14:50.113: vmx| WSSCAN: reserved mem (in MB) min=32 max=2872 recommended=2872
+Apr 17 22:14:50.113: vmx| WSSCAN: used rec mem (in MB) 2872
+Apr 17 22:14:50.114: vmx| PShare: enabled 1 adaptive 1 local 0 scanRate [16, 400]
+Apr 17 22:14:50.114: vmx| WSSCAN: 165449 8379 131072 32768
+Apr 17 22:14:50.139: vmx| WSSCAN 1 1 567969 576161 735232 606842 50 0
+Apr 17 22:14:50.144: vmx| LICENSE using: 'HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\Dormant\License.ws.7.0.e1.200904' 
+Apr 17 22:14:50.182: vmx| LOG failed to remove stats\stats32-2 failed: The system cannot find the path specified
+Apr 17 22:14:50.182: vmx| LOG failed to rename stats\stats32-1 -> stats\stats32-2 failed: The system cannot find the path specified
+Apr 17 22:14:50.182: vmx| LOG failed to rename stats\stats32-0 -> stats\stats32-1 failed: The system cannot find the path specified
+Apr 17 22:14:50.182: vmx| LOG failed to rename stats\stats32 -> stats\stats32-0 failed: The system cannot find the path specified
+Apr 17 22:14:50.182: vmx| LOG failed to remove stats\stats64-2 failed: The system cannot find the path specified
+Apr 17 22:14:50.182: vmx| LOG failed to rename stats\stats64-1 -> stats\stats64-2 failed: The system cannot find the path specified
+Apr 17 22:14:50.182: vmx| LOG failed to rename stats\stats64-0 -> stats\stats64-1 failed: The system cannot find the path specified
+Apr 17 22:14:50.182: vmx| LOG failed to rename stats\stats64 -> stats\stats64-0 failed: The system cannot find the path specified
+Apr 17 22:14:50.182: vmx| LOG failed to remove stats32-2 failed: The system cannot find the file specified
+Apr 17 22:14:50.183: vmx| LOG failed to remove stats64-2 failed: The system cannot find the file specified
+Apr 17 22:14:50.185: vmx| Host IPI vectors: 0xe1 0
+Apr 17 22:14:50.185: vmx| Monitor_PowerOn: HostedVSMP skew tracking is disabled
+Apr 17 22:14:50.185: vmx| Monitor_PowerOn: HostedVSMP crosscall yielding is disabled
+Apr 17 22:14:50.186: vmx| vmm32-modules: [vmm.vmm32 .data:0x2b000-0x748 .sdata:0x2c000-0x4e4 .statvars:0x2d000-0x3a0 .peer:0x2e000-0x26200 .shared:0x5a000-0x143c0 .bss:0x6f000-0x5de8 .rodata:0x76000-0xb6c0 .text:0x82000-0x5c51d .kstatvars:0x3000-0x0, mmu-nohv.vmm32 .rodata:0x816c0-0x44 .data:0x2b748-0x10 .peer:0x54200-0x5640 .shared:0x6e3c0-0x340 .bss:0x74e00-0x51c .text:0xde520-0xa4e3 .comment:0x40000d5c-0x10e .statvars:0x2000-0x0 .kstatvars:0x2000-0x0 .scb:0x40003cc0-0x180 .shared_meta:0x400042f0-0x330 .peer_meta:0x40000f90-0x1e0 .patchtext:0x40000500-0xb0, pv-none.vmm32 .shared:0x6e700-0x180 .bss:0x75320-0x84 .text:0xe8a04-0xe2 .comment:0x40000e6a-0x48 .shared_meta:0x40004620-0x90, vprobe-none.vmm32 .text:0xe8ae8-0x19 .comment:0x40000eb2-0x12, hv-none.vmm32 .rodata:0x81704-0x4 .data:0x1000-0x0 .peer:0x1000-0x0 .shared:0x1000-0x0 .bss:0x1000-0x0 .text:0xe8b04-0x11 .comment:0x40000ec4-0x12 .statvars:0x1000-0x0 .kstatvars:0x1000-0x0, gphys-sw.vmm32 .peer:0x59840-0x40 .shared:0x6e880-0x80 .bss:0x2000-0x0 .text:0xe8b20-0x7d1 .comment:0x40000ed6-0x12 .scb:0x40003e40-0x60 .shared_meta:0x400046b0-0x240 .peer_meta:0x40001170-0x30, vassert-none.vmm32 .text:0xe92f4-0x39 .comment:0x40000ee8-0x12, vmsafe-none.vmm32 .text:0xe9330-0x1b .comment:0x40000efa-0x12, <MonSrcFile> .rodata:0x81708-0x3ce]
+Apr 17 22:14:50.190: vmx| KHZEstimate 2000000
+Apr 17 22:14:50.190: vmx| MHZEstimate 2000
+Apr 17 22:14:50.190: vmx| NumVCPUs 1
+Apr 17 22:14:50.191: vmx| PShare: checkRate 16
+Apr 17 22:14:50.191: vmx| UUID: location-UUID is 56 4d 9f 57 36 1b f3 af-dc 83 ab 57 6e 06 3e 7f
+Apr 17 22:14:50.192: vmx| UUID: location-UUID is 56 4d 0b d7 4f 03 75 65-fb 02 5f 6f 9b 17 84 d3
+Apr 17 22:14:50.197: vmx| UUID: location-UUID is 56 4d 0b d7 4f 03 75 65-fb 02 5f 6f 9b 17 84 d3
+Apr 17 22:14:50.198: vmx| AIOGNRC: numThreads=18 ide=0, scsi=1, passthru=1
+Apr 17 22:14:50.198: vmx| WORKER: Creating new group with numThreads=18 (18)
+Apr 17 22:14:50.339: vmx| Replay State = 0
+Apr 17 22:14:50.339: vmx| minDEThreshold: 76
+Apr 17 22:14:50.384: vmx| MM: Using partialmap, 131072 pages AC 0 CE 1 TM 0 DOHU 0
+Apr 17 22:14:50.402: vmx| MMC: Initialized PLS=1 PLR=0 PFS=0 TS=1 BS=1 WZ=0 BufM=512 SOR=1 BlkP=32 W=50 PF=512
+Apr 17 22:14:50.404: vmx| UUID: location-UUID is 56 4d 0b d7 4f 03 75 65-fb 02 5f 6f 9b 17 84 d3
+Apr 17 22:14:50.431: vmx| MM: Opened paging file, 'C:\Users\Euan\Documents\Virtual Machines\Euan_Hume_WebArcAss3\564d0bd7-4f03-7565-fb02-5f6f9b1784d3.vmem'.
+Apr 17 22:14:50.432: vmx| MStat: Creating Stat vm.uptime
+Apr 17 22:14:50.433: vmx| MStat: Creating Stat vm.suspendTime
+Apr 17 22:14:50.433: vmx| MStat: Creating Stat vm.powerOnTimeStamp
+Apr 17 22:14:50.433: vmx| Setting thread 37 stack size to 1048576.
+Apr 17 22:14:50.435: vmx| VMXAIOMGR: Using: simple=Generic unbuf=Compl
+Apr 17 22:14:50.449: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Apr 17 22:14:50.455: vmx| DISK: OPEN scsi0:0 'C:\Users\Euan\Documents\Virtual Machines\Euan_Hume_WebArcAss3\Euan_Hume_WebArcAss3.vmdk' persistent R[]
+Apr 17 22:14:50.528: vmx| DISKLIB-DSCPTR: Opened [0]: "Euan_Hume_WebArcAss3.vmdk" (0xa)
+Apr 17 22:14:50.528: vmx| DISKLIB-LINK  : Opened 'C:\Users\Euan\Documents\Virtual Machines\Euan_Hume_WebArcAss3\Euan_Hume_WebArcAss3.vmdk' (0xa): monolithicSparse, 4194304 sectors / 2 GB.
+Apr 17 22:14:50.528: vmx| DISKLIB-LIB   : Opened "C:\Users\Euan\Documents\Virtual Machines\Euan_Hume_WebArcAss3\Euan_Hume_WebArcAss3.vmdk" (flags 0xa).
+Apr 17 22:14:50.529: vmx| DiskGetGeometry: Reading of disk partition table
+Apr 17 22:14:50.530: vmx| DISK: OPEN 'C:\Users\Euan\Documents\Virtual Machines\Euan_Hume_WebArcAss3\Euan_Hume_WebArcAss3.vmdk' Geo (261/255/63) BIOS Geo (261/255/63)
+Apr 17 22:14:50.592: vmx| TimeTracker host to guest rate conversion 22610267752216 @ 2000000000Hz -> 22610267752216 @ 2000000000Hz
+Apr 17 22:14:50.592: vmx| TimeTracker host to guest rate conversion ((x * 2147483648) >> 31) + 0
+Apr 17 22:14:50.593: vmx| USB: Initializing 'Generic' backend
+Apr 17 22:14:50.594: vmx| USBGW: Write arbitrator op:0 len:4
+Apr 17 22:14:50.594: vmx| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:14:50.594: vmx| USB: Initializing 'Virtual Hub' backend
+Apr 17 22:14:50.594: vmx| USB: Initializing 'Virtual Mouse' backend
+Apr 17 22:14:50.595: vmx| USB: Initializing 'Virtual Keyboard' backend
+Apr 17 22:14:50.595: vmx| USB: Initializing 'Virtual Mass Storage' backend
+Apr 17 22:14:50.595: vmx| USB: Initializing 'Virtual CCID' backend
+Apr 17 22:14:50.601: vmx| Setting thread 38 stack size to 1048576.
+Apr 17 22:14:50.601: usbCCIDEnumCards| USB-CCID: Card enum thread created.
+Apr 17 22:14:50.602: vmx| WORKER: Creating new group with numThreads=1 (19)
+Apr 17 22:14:50.636: vmx| USBGW: Skipping disk backing for file (C:\Users\Euan\Documents\Virtual Machines\Euan_Hume_WebArcAss3\Euan_Hume_WebArcAss3.vmx).
+Apr 17 22:14:50.639: vmx| USBGW: Skipping disk backing for file (C:\Users\Euan\Documents\Virtual Machines\Euan_Hume_WebArcAss3\Euan_Hume_WebArcAss3.vmdk).
+Apr 17 22:14:50.641: vmx| USBGW: Skipping disk backing for file (C:\Users\Euan\Documents\Virtual Machines\Euan_Hume_WebArcAss3\Euan_Hume_WebArcAss3.vmsd).
+Apr 17 22:14:50.642: vmx| USBGW: Skipping disk backing for file (C:\Users\Euan\Documents\Virtual Machines\Euan_Hume_WebArcAss3\Euan_Hume_WebArcAss3.nvram).
+Apr 17 22:14:50.661: vmx| WORKER: Creating new group with numThreads=1 (20)
+Apr 17 22:14:50.661: vmx| MKS: Base polling period is 1000000us
+Apr 17 22:14:50.662: vmx| KHBKL: Unable to parse keystring at: ''
+Apr 17 22:14:50.662: vmx| MKS REMOTE Loading VNC Configuration from VM config file
+Apr 17 22:14:50.673: vmx| VLANCE: send cluster threshold is 80, size = 2 recalcInterval is 2 ticks
+Apr 17 22:14:50.673: vmx| VMXNET: send cluster threshold is 80, size = 2 recalcInterval is 2 ticks, dontClusterSize is 128
+Apr 17 22:14:50.674: vmx| NetPkt: checksum cycles/kB: C=2309 asm1=2976 asm2=2987
+Apr 17 22:14:50.675: vmx| NetPkt: copy and sum cycles/kB: C=3888 asm1=3038 asm2=3090
+Apr 17 22:14:50.680: vmx| Chipset version: 0x13
+Apr 17 22:14:50.715: vmx| DISKUTIL: ide1:0 : capacity=0
+Apr 17 22:14:50.715: vmx| DISKUTIL: ide1:0 : geometry=0/0/0
+Apr 17 22:14:50.715: vmx| LSI: vIC initialized 50/4/100/0
+Apr 17 22:14:50.716: vmx| SCSI0: UNTAGGED commands will be converted to ORDER tags.
+Apr 17 22:14:50.716: vmx| DISKUTIL: scsi0:0 : capacity=4194304
+Apr 17 22:14:50.716: vmx| DISKUTIL: scsi0:0 : geometry=261/255/63
+Apr 17 22:14:50.717: vmx| SVGA: Device capabilities 0x001fc3e2
+Apr 17 22:14:50.717: vmx| Host display topology 1366x768.
+Apr 17 22:14:50.717: vmx| SVGA: Max size 2560x1600
+Apr 17 22:14:50.740: vmx| Host display topology 1366x768 with 1 displays.
+Apr 17 22:14:50.740: vmx| SVGA: Max size 2560x1600
+Apr 17 22:14:50.740: vmx| SVGA: FIFO capabilities 0x0000007f
+Apr 17 22:14:50.740: vmx| USB: Initializing 'UHCI' host controller
+Apr 17 22:14:50.741: vmx| Ethernet0 MAC Address: 00:0c:29:17:84:d3
+Apr 17 22:14:50.741: vmx| USB: Initializing 'EHCI' host controller
+Apr 17 22:14:50.779: vmx| MStat: Creating Stat vm.heartbeat
+Apr 17 22:14:50.780: vmx| TOOLS Generated SessionId 17913073483441485862
+Apr 17 22:14:50.783: vmx| VMXVmdbGuest_GetToolsVersion did nothing; tools version has not yet been initialized
+Apr 17 22:14:50.783: vmx| DISKUTIL: scsi0:0 : toolsVersion = 8227
+Apr 17 22:14:50.783: vmx| VMXVmdbGuest_GetToolsVersion did nothing; tools version has not yet been initialized
+Apr 17 22:14:50.783: vmx| TOOLS setting legacy tools version to '8227', manifest status is 5
+Apr 17 22:14:50.783: vmx| VMXVmdb_SetToolsVersionState: status value set to 'ok'
+Apr 17 22:14:50.783: vmx| VMXVmdb_SetToolsVersionState: status value set to 'ok'
+Apr 17 22:14:50.783: vmx| TOOLS INSTALL initializing state to IDLE on power on.
+Apr 17 22:14:50.786: vmx| PTSC to VMI Wallclock (nsec) 22610655231557 @ 2000000000Hz -> 1303074890000000000 @ 1000000000Hz
+Apr 17 22:14:50.786: vmx| PTSC to VMI Wallclock (nsec) ((x * 2147483648) >> 32) + 1303063584672384222
+Apr 17 22:14:50.786: vmx| PTSC to ParaTime RealCycles 0 @ 2000000000Hz -> 0 @ 2000000000Hz
+Apr 17 22:14:50.786: vmx| PTSC to ParaTime RealCycles ((x * 1) >> 0) + 0
+Apr 17 22:14:50.786: vmx| ParaTime RealCycles to PTSC 0 @ 2000000000Hz -> 0 @ 2000000000Hz
+Apr 17 22:14:50.786: vmx| ParaTime RealCycles to PTSC ((x * 1) >> 0) + 0
+Apr 17 22:14:50.786: vmx| memoryHotplug: Current size = 512MB, Minimum size = 512MB, Maximum size = 512MB
+Apr 17 22:14:50.786: vmx| memoryHotplug: Entry[0]: 00000000000000A0-00000000000A0000
+Apr 17 22:14:50.786: vmx| memoryHotplug: Entry[1]: 00000000001000A0-0000000020000000
+Apr 17 22:14:50.789: vmx| guestCpuFeatures = 0x404001f8
+Apr 17 22:14:50.789: vmx| guestCPUID vendor: GenuineIntel
+Apr 17 22:14:50.790: vmx| guestCPUID   name: Pentium(R) Dual-Core CPU       T4200  @ 2.00GHz
+Apr 17 22:14:50.790: vmx| guestCPUID level 00000000, 0: 0x0000000d 0x756e6547 0x6c65746e 0x49656e69
+Apr 17 22:14:50.790: vmx| guestCPUID level 00000001, 0: 0x0001067a 0x00010800 0x80000201 0x0febfbff
+Apr 17 22:14:50.790: vmx| guestCPUID level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb43078
+Apr 17 22:14:50.790: vmx| guestCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:50.790: vmx| guestCPUID level 00000004, 0: 0x04000121 0x01c0003f 0x0000003f 0x00000001
+Apr 17 22:14:50.790: vmx| guestCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00002220
+Apr 17 22:14:50.790: vmx| guestCPUID level 00000006, 0: 0x00000001 0x00000002 0x00000003 0x00000000
+Apr 17 22:14:50.790: vmx| guestCPUID level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:50.790: vmx| guestCPUID level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:50.790: vmx| guestCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:50.790: vmx| guestCPUID level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+Apr 17 22:14:50.790: vmx| guestCPUID level 0000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:50.790: vmx| guestCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:50.790: vmx| guestCPUID level 0000000d, 0: 0x00000003 0x00000240 0x00000240 0x00000000
+Apr 17 22:14:50.790: vmx| guestCPUID level 40000000, 0: 0x40000010 0x61774d56 0x4d566572 0x65726177
+Apr 17 22:14:50.790: vmx| guestCPUID level 40000010, 0: 0x001e8480 0x000101d0 0x00000000 0x00000000
+Apr 17 22:14:50.790: vmx| guestCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:50.790: vmx| guestCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000000 0x00100000
+Apr 17 22:14:50.790: vmx| guestCPUID level 80000002, 0: 0x746e6550 0x286d7569 0x44202952 0x2d6c6175
+Apr 17 22:14:50.790: vmx| guestCPUID level 80000003, 0: 0x65726f43 0x55504320 0x20202020 0x54202020
+Apr 17 22:14:50.790: vmx| guestCPUID level 80000004, 0: 0x30303234 0x20402020 0x30302e32 0x007a4847
+Apr 17 22:14:50.790: vmx| guestCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:50.790: vmx| guestCPUID level 80000006, 0: 0x00000000 0x00000000 0x04004040 0x00000000
+Apr 17 22:14:50.790: vmx| guestCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:50.790: vmx| guestCPUID level 80000008, 0: 0x00003028 0x00000000 0x00000000 0x00000000
+Apr 17 22:14:50.793: vmx| BusMemSample: initPercent 75 touched 98304
+Apr 17 22:14:50.793: vmx| TOOLS received request in VMX to set option 'enableDnD' -> '1'
+Apr 17 22:14:50.793: vmx| TOOLS received request in VMX to set option 'copypaste' -> '1'
+Apr 17 22:14:50.794: vmx| Vix: [1364 mainDispatch.c:710]: VMAutomation_PowerOn. Powering on.
+Apr 17 22:14:50.795: vmx| VMX_PowerOn: ModuleTable_PowerOn = 1
+Apr 17 22:14:50.795: vmx| Setting thread 1 stack size to 2097152.
+Apr 17 22:14:50.816: vmx| Setting thread 4 stack size to 1048576.
+Apr 17 22:14:50.816: mks| Async MKS thread is alive
+Apr 17 22:14:50.827: vmx| DnDRegisterRpc: DnD rpc already set to 1
+Apr 17 22:14:50.827: vmx| CopyPasteRegisterRpc: already set to 1
+Apr 17 22:14:50.862: vcpu-0| APIC: version = 0x14, max LVT = 5
+Apr 17 22:14:50.862: vcpu-0| APIC: LDR = 0x2000000, DFR = 0xffffffff
+Apr 17 22:14:50.873: vcpu-0| CPU reset: hard (mode 2)
+Apr 17 22:14:50.873: vcpu-0| memoryHotplug: Entry[0]: 00000000000000A0-00000000000A0000
+Apr 17 22:14:50.873: vcpu-0| memoryHotplug: Entry[1]: 00000000001000A0-0000000020000000
+Apr 17 22:14:50.873: vcpu-0| PIIX4: PM Resuming from suspend type 0x0.
+Apr 17 22:14:51.012: vcpu-0| SOUND 001.305949 PCISoundWin32 mixerGetLineInfo error 1
+Apr 17 22:14:51.014: vcpu-0| VNET: MACVNetConnectToNetwork: Ethernet0: notify available
+Apr 17 22:14:51.014: vcpu-0| Vix: [3352 mainDispatch.c:3485]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1872, success=1
+Apr 17 22:14:51.022: vcpu-0| Vix: [3352 mainDispatch.c:3406]: VMAutomationReportPowerStateChange: Reporting power state change (opcode=0, err=0).
+Apr 17 22:14:51.022: vcpu-0| Vix: [3352 mainDispatch.c:3406]: VMAutomationReportPowerStateChange: Reporting power state change (opcode=2, err=0).
+Apr 17 22:14:51.022: vcpu-0| Transitioned vmx/execState/val to poweredOn
+Apr 17 22:14:51.075: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Apr 17 22:14:51.339: vcpu-0| sz=2965472
+Apr 17 22:14:51.344: vcpu-0| vmm32 initialized: Releasebuild-203739. cflags: 0x00000008.01001000.20602100.00340003
+Apr 17 22:14:51.348: vcpu-0| MonitorInitNumaUnmapVMM32
+Apr 17 22:14:51.470: mks| Connecting to window system.
+Apr 17 22:14:51.470: mks| MKS: Base polling period is 10000us
+Apr 17 22:14:51.470: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:14:51.492: mks| GdiBackendConstruct: Using software emulation for overlays.
+Apr 17 22:14:51.499: mks| VMXAIOMGR: Disallowing USB connect.  1792675 us since last reopen
+Apr 17 22:14:51.506: mks| HostOps hideCursor before defineCursor!
+Apr 17 22:14:51.603: vmx| VMXVmdbLoadUsbDevices: New set of 2 USB devices
+Apr 17 22:14:51.603: vmx| USB: Found device [name:Apple\ USB\ Mass\ Storage\ Device vid:05ac pid:1209 path:1/2/3 speed:high family:audio,hid,storage]
+Apr 17 22:14:51.604: vmx| USB: Found device [name:Suyin\ USB\ Composite\ Device vid:064e pid:a103 path:1/7/4 speed:high family:other]
+Apr 17 22:14:52.048: vcpu-0| SVGA: Registering MemSpace at 0xd0000000(0x0) and 0xd8000000(0x0)
+Apr 17 22:14:52.054: vcpu-0| SVGA: Unregistering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Apr 17 22:14:52.240: vcpu-0| SVGA: Registering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Apr 17 22:14:52.262: vcpu-0| SVGA: Unregistering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Apr 17 22:14:52.265: vcpu-0| SVGA: Registering IOSpace at 0x10d0
+Apr 17 22:14:52.265: vcpu-0| SVGA: Registering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Apr 17 22:14:52.272: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.273: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.275: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.277: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.278: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.280: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.281: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.283: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.284: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.286: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.287: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.289: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.290: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.292: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.293: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.295: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.296: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.298: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.299: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.301: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.302: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.304: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.306: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.307: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.308: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.310: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.312: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.313: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.316: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.318: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.320: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.322: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.578: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.580: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.582: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.584: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.585: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.587: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.589: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.590: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.592: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.593: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.595: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.596: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.598: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.600: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.602: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.604: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.605: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.607: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.608: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.610: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.611: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.613: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.614: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.616: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.618: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.619: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.621: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.622: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.624: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.625: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.627: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.628: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:52.638: vcpu-0| DISKUTIL: scsi0:0 : geometry=261/255/63
+Apr 17 22:14:52.638: vcpu-0| DISKUTIL: scsi0:0 : capacity=4194304
+Apr 17 22:14:52.639: vcpu-0| SCSI0: RESET BUS
+Apr 17 22:14:52.718: vcpu-0| BIOS-UUID is 56 4d 0b d7 4f 03 75 65-fb 02 5f 6f 9b 17 84 d3
+Apr 17 22:14:53.141: mks| HostOps hideCursor before defineCursor!
+Apr 17 22:14:53.791: mks| HostOps hideCursor before defineCursor!
+Apr 17 22:14:55.306: mks| HostOps hideCursor before defineCursor!
+Apr 17 22:14:56.443: vcpu-0| SVGA: Unregistering IOSpace at 0x10d0
+Apr 17 22:14:56.444: vcpu-0| SVGA: Registering IOSpace at 0xfffffff0
+Apr 17 22:14:56.444: vcpu-0| SVGA: Unregistering IOSpace at 0xfffffff0
+Apr 17 22:14:56.444: vcpu-0| SVGA: Registering IOSpace at 0x10d0
+Apr 17 22:14:56.483: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.484: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.484: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.484: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.484: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.485: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.485: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.485: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.485: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.486: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.486: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.486: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.486: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.487: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.487: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.488: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.488: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.488: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.488: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.489: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.489: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.489: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.489: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.490: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.490: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.490: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.490: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.491: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.491: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.491: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.491: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.492: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.492: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.492: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.492: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.493: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.493: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.494: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.494: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.494: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.494: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.495: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.495: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.495: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.495: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.496: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.496: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.496: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.496: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.497: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.497: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.498: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.498: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.498: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.498: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.499: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.499: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.499: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.499: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.500: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.500: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.500: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.500: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.501: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.501: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.501: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.501: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.501: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.501: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.501: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.501: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.501: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.501: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.501: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.501: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.502: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.502: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.502: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.502: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.502: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.502: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.502: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.502: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.502: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.502: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.502: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.502: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.502: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.502: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.502: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.502: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.502: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.502: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.502: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.502: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.502: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.502: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.502: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.503: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.503: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.503: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.503: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.503: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.503: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.503: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.503: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.503: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.503: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.503: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.503: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.503: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.503: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.503: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.503: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.503: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.503: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.503: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.503: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.503: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.504: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.504: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.504: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.504: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.504: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.504: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.504: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.504: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.504: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:56.768: mks| SVGA: display status changed, using optimizations for local consoles.
+Apr 17 22:14:57.058: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.059: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.059: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.059: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.059: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.059: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.059: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.059: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.060: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.060: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.060: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.060: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.060: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.060: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.060: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.061: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.061: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.061: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.061: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.061: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.061: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.062: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.062: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.062: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.062: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.062: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.062: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.063: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.063: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.063: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.063: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.063: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 22:14:57.077: vcpu-0| UHCI: HCReset
+Apr 17 22:14:57.564: vcpu-0| UHCI: HCReset
+Apr 17 22:14:59.986: vcpu-0| SCSI0: RESET BUS
+Apr 17 22:15:00.375: vcpu-0| SCSI0: RESET BUS
+Apr 17 22:15:00.413: vcpu-0| SCSI DEVICE (scsi0:0): MODE SENSE(6) for unsupported page 0x8
+Apr 17 22:15:00.415: vcpu-0| SCSI DEVICE (scsi0:0): MODE SENSE(6) for unsupported page 0x8
+Apr 17 22:15:00.434: vcpu-0| SCSI DEVICE (scsi0:0): MODE SENSE(6) for unsupported page 0x8
+Apr 17 22:15:01.102: vcpu-0| DISKLIB-DDB   : "longContentID" = "237e74e22f997e58d6231405118949f7" (was "7604a5f26f5688d3ffdd032483a3f10f")
+Apr 17 22:15:11.459: vcpu-0| CDROM: Accepting Event Status Notification 0x10
+Apr 17 22:15:11.461: vcpu-0| VIDE: Truncating 0x46 from 65530 bytes to 32768
+Apr 17 22:15:11.461: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Apr 17 22:15:12.410: vcpu-0| Keyboard: invalid mouse sample rate 102 Hz, using 100 instead
+Apr 17 22:15:12.582: vcpu-0| SCSI DEVICE (scsi0:0): No transfer information for *UNKNOWN (0x85)* (0x85)
+Apr 17 22:15:12.582: vcpu-0| SCSI (scsi0:0): SCSI-3 16-byte CDB format not supported (LUN 0).
+Apr 17 22:15:12.587: vcpu-0| SCSI DEVICE (scsi0:0): No transfer information for *UNKNOWN (0x85)* (0x85)
+Apr 17 22:15:12.587: vcpu-0| SCSI (scsi0:0): SCSI-3 16-byte CDB format not supported (LUN 0).
+Apr 17 22:15:12.588: vcpu-0| SCSI DEVICE (scsi0:0): No transfer information for *UNKNOWN (0x85)* (0x85)
+Apr 17 22:15:12.588: vcpu-0| SCSI (scsi0:0): SCSI-3 16-byte CDB format not supported (LUN 0).
+Apr 17 22:15:12.715: mks| HostOps hideCursor before defineCursor!
+Apr 17 22:15:13.504: vcpu-0| SOUND 023.797778 PCISoundWin32 mixerGetLineInfo error 1024
+Apr 17 22:15:13.547: vcpu-0| VLANCE: Returning 0x0 for LANCE_EXTINT IN
+Apr 17 22:15:13.547: vcpu-0| VLANCE: Ignoring LANCE_EXTINT OUT of 0x1
+Apr 17 22:15:13.753: vcpu-0| VLANCE: IN on LANCE_MODE while not stopped: 0x73
+Apr 17 22:15:13.753: vcpu-0| VLANCE: OUT on LANCE_PADR2 while not stopped: 0x73, word: 0x0
+Apr 17 22:15:13.753: vcpu-0| VLANCE: OUT on LANCE_LADRF0 while not stopped: 0x73, word: 0x0
+Apr 17 22:15:13.753: vcpu-0| VLANCE: OUT on LANCE_LADRF1 while not stopped: 0x73, word: 0x80
+Apr 17 22:15:13.753: vcpu-0| VLANCE: OUT on LANCE_LADRF2 while not stopped: 0x73, word: 0x0
+Apr 17 22:15:13.753: vcpu-0| VLANCE: OUT on LANCE_LADRF3 while not stopped: 0x73, word: 0x0
+Apr 17 22:15:22.975: vcpu-0| GuestRpc: Channel 0, guest application toolbox.
+Apr 17 22:15:22.976: vcpu-0| Vix: [3352 mainDispatch.c:3406]: VMAutomationReportPowerStateChange: Reporting power state change (opcode=2, err=0).
+Apr 17 22:15:23.624: vcpu-0| TOOLS ToolsCapabilityGuestTempDirectory received 1 /tmp/vmware-root
+Apr 17 22:15:23.626: vcpu-0| TOOLS autoupgrade protocol version 2
+Apr 17 22:15:23.631: vcpu-0| TOOLS ToolsCapabilityGuestConfDirectory received /etc/vmware-tools
+Apr 17 22:15:23.631: vcpu-0| ToolsSetVersionWork did nothing; new tools version (8227) matches old Tools version
+Apr 17 22:15:23.632: vcpu-0| Starting copy guest manifest to local C:\Users\Euan\AppData\Local\Temp\vmware-Euan\manifest.txt.1 path.
+Apr 17 22:15:23.777: vcpu-0| Compared tools manifest from host and from the guest. Status = 2.
+Apr 17 22:15:23.779: vcpu-0| VMXVmdb_SetToolsVersionState: status value set to 'ok'
+Apr 17 22:15:23.779: vcpu-0| TOOLS installed legacy version 8227, available legacy version 8227
+Apr 17 22:15:23.779: vcpu-0| TOOLS manifest update status is 2 (1-out of date, 2-ok, 3-no tools, 4-unmanaged, 5-unknown)
+Apr 17 22:15:23.779: vcpu-0| TOOLS will not be autoupgraded.
+Apr 17 22:15:23.779: vcpu-0| TOOLS Setting autoupgrade-checked TRUE.
+Apr 17 22:15:23.781: vcpu-0| TOOLS unified loop capability requested by 'toolbox'; now sending options via TCLO
+Apr 17 22:15:23.781: vcpu-0| Guest: toolbox: Version: build-203739
+Apr 17 22:15:29.114: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:15:29.126: mks| Setting thread 40 stack size to 1048576.
+Apr 17 22:15:29.136: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:15:36.867: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:15:51.467: vmx| GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+Apr 17 22:18:20.548: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:18:20.548: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:18:21.874: mks| Setting thread 40 stack size to 1048576.
+Apr 17 22:18:59.499: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:19:03.562: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:19:03.564: mks| Setting thread 40 stack size to 1048576.
+Apr 17 22:19:03.575: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:19:40.993: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:20:29.428: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:20:29.428: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:20:31.229: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:21:04.158: vmx| VMXVmdbLoadUsbDevices: New set of 3 USB devices
+Apr 17 22:21:04.158: vmx| USB: Found device [name:Apple\ USB\ Mass\ Storage\ Device vid:05ac pid:1209 path:1/2/3 speed:high family:audio,hid,storage]
+Apr 17 22:21:04.158: vmx| USB: Found device [name:Iomega\ USB\ Mass\ Storage\ Device vid:059b pid:0571 path:1/7/1 speed:high family:storage]
+Apr 17 22:21:04.158: vmx| USB: Found device [name:Suyin\ USB\ Composite\ Device vid:064e pid:a103 path:1/7/4 speed:high family:other]
+Apr 17 22:21:39.516: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:21:39.517: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:21:39.522: mks| Setting thread 40 stack size to 1048576.
+Apr 17 22:21:40.561: mks| Setting thread 41 stack size to 1048576.
+Apr 17 22:21:58.675: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:22:23.345: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:22:23.353: mks| Setting thread 41 stack size to 1048576.
+Apr 17 22:22:23.360: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:22:50.258: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:22:54.428: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:22:54.428: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:22:56.877: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:23:50.986: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:23:50.986: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:23:52.731: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:24:00.997: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:24:00.997: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:24:02.353: mks| Setting thread 41 stack size to 1048576.
+Apr 17 22:24:27.907: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:24:36.826: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:24:36.830: mks| Setting thread 41 stack size to 1048576.
+Apr 17 22:24:36.840: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:24:56.641: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:25:42.897: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:28:48.036: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:28:48.036: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:28:54.809: mks| Setting thread 41 stack size to 1048576.
+Apr 17 22:29:07.970: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:29:37.865: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:29:37.865: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:29:38.498: mks| Setting thread 41 stack size to 1048576.
+Apr 17 22:30:08.699: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:30:28.251: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:30:28.251: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:30:30.026: mks| Setting thread 41 stack size to 1048576.
+Apr 17 22:31:05.899: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:32:09.468: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:32:09.469: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:32:10.668: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:32:12.957: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:32:12.963: mks| Setting thread 41 stack size to 1048576.
+Apr 17 22:32:12.967: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:32:45.993: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:32:55.241: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:33:01.450: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:33:16.118: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:33:16.118: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:33:17.034: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:34:27.002: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:34:27.002: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:34:28.361: mks| Setting thread 41 stack size to 1048576.
+Apr 17 22:34:39.545: mks| Setting thread 41 stack size to 1048576.
+Apr 17 22:34:59.346: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:35:25.890: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:35:25.890: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:35:26.866: mks| Setting thread 41 stack size to 1048576.
+Apr 17 22:35:36.249: mks| Setting thread 41 stack size to 1048576.
+Apr 17 22:35:55.658: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:36:04.672: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:36:04.673: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:36:05.706: mks| Setting thread 41 stack size to 1048576.
+Apr 17 22:36:08.241: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:37:07.659: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:37:07.659: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:37:08.755: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:37:10.275: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:37:10.287: mks| Setting thread 41 stack size to 1048576.
+Apr 17 22:37:10.292: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:37:34.602: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:38:20.140: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:38:20.140: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:38:21.290: mks| Setting thread 41 stack size to 1048576.
+Apr 17 22:38:32.474: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:38:51.935: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:38:51.936: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:38:56.681: mks| Setting thread 41 stack size to 1048576.
+Apr 17 22:39:26.242: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:40:12.751: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:40:12.751: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:40:14.025: mks| Setting thread 41 stack size to 1048576.
+Apr 17 22:40:24.081: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:40:34.759: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:40:34.759: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:40:43.642: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:41:07.469: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:41:07.469: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:41:08.058: mks| Setting thread 41 stack size to 1048576.
+Apr 17 22:41:30.306: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:41:48.271: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:41:48.271: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:41:49.746: mks| Setting thread 41 stack size to 1048576.
+Apr 17 22:42:07.163: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:42:30.877: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:42:30.877: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:42:39.186: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:42:46.001: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:42:46.001: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:42:47.617: mks| Setting thread 41 stack size to 1048576.
+Apr 17 22:43:32.991: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:45:59.818: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:45:59.818: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:46:00.498: mks| Setting thread 41 stack size to 1048576.
+Apr 17 22:46:14.250: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:48:29.862: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:48:29.862: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:48:32.281: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:51:40.492: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:51:40.502: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:51:41.225: mks| Setting thread 41 stack size to 1048576.
+Apr 17 22:51:50.243: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:52:47.244: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:52:47.244: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:52:48.822: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:55:31.315: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:55:31.315: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:55:32.562: mks| Setting thread 41 stack size to 1048576.
+Apr 17 22:56:45.154: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:56:50.974: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:56:50.974: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:56:56.738: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:57:27.943: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:57:27.943: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:57:29.777: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:57:31.686: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:57:31.687: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:57:32.053: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:59:33.105: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 22:59:33.105: mks| Setting thread 39 stack size to 1048576.
+Apr 17 22:59:37.409: mks| Setting thread 41 stack size to 1048576.
+Apr 17 23:00:30.491: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:02:40.293: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:02:40.293: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:02:41.465: mks| Setting thread 41 stack size to 1048576.
+Apr 17 23:02:58.076: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:03:06.954: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:03:06.954: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:03:07.498: mks| Setting thread 41 stack size to 1048576.
+Apr 17 23:04:03.386: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:04:08.873: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:04:08.874: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:04:09.794: mks| Setting thread 41 stack size to 1048576.
+Apr 17 23:04:14.489: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:04:16.078: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:04:16.078: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:04:16.642: mks| Setting thread 41 stack size to 1048576.
+Apr 17 23:04:42.419: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:04:46.791: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:04:46.791: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:05:12.866: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:05:26.244: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:05:26.244: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:05:26.983: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:24:27.708: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:24:27.708: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:24:28.690: mks| Setting thread 41 stack size to 1048576.
+Apr 17 23:24:35.006: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:27:45.356: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:27:45.356: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:27:46.154: mks| Setting thread 41 stack size to 1048576.
+Apr 17 23:28:09.321: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:28:27.082: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:28:27.082: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:28:30.712: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:28:54.494: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:28:54.494: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:28:57.257: mks| Setting thread 41 stack size to 1048576.
+Apr 17 23:29:30.195: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:29:39.202: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:29:39.210: mks| Setting thread 41 stack size to 1048576.
+Apr 17 23:29:39.218: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:30:03.747: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:30:13.081: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:30:13.081: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:30:14.995: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:30:25.838: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:30:25.838: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:30:26.971: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:36:28.275: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:36:28.276: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:36:29.073: mks| Setting thread 41 stack size to 1048576.
+Apr 17 23:36:50.260: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:37:13.007: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:37:13.010: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:37:14.254: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:39:46.932: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:39:46.933: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:39:51.036: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:39:51.147: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:39:51.147: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:39:58.001: mks| Setting thread 41 stack size to 1048576.
+Apr 17 23:40:09.746: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:40:11.655: vcpu-0| TOOLS autoupgrade protocol version 0
+Apr 17 23:40:11.655: vcpu-0| TOOLS ToolsCapabilityGuestTempDirectory received 0
+Apr 17 23:40:11.656: vcpu-0| GuestRpc: Reinitializing Channel 0(toolbox)
+Apr 17 23:40:11.656: vcpu-0| GuestRpc: Channel 0 reinitialized.
+Apr 17 23:40:12.797: vcpu-0| VLANCE: Reserved value written to sstyle register 4
+Apr 17 23:40:14.311: vcpu-0| UHCI: HCReset
+Apr 17 23:40:14.346: vcpu-0| CPU reset: soft (mode 2)
+Apr 17 23:40:14.355: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.355: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.355: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.355: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.356: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.356: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.356: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.356: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.356: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.356: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.356: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.357: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.357: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.357: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.357: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.357: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.357: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.357: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.357: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.358: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.358: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.358: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.358: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.358: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.358: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.358: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.358: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.359: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.359: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.359: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.359: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:14.359: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.078: vcpu-0| SVGA: Unregistering IOSpace at 0x10d0
+Apr 17 23:40:15.078: vcpu-0| SVGA: Unregistering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Apr 17 23:40:15.083: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.083: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.084: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.084: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.085: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.085: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.085: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.086: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.087: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.087: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.088: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.088: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.088: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.089: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.089: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.090: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.090: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.090: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.091: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.091: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.092: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.092: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.093: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.093: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.094: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.094: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.094: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.095: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.095: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.096: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.096: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.097: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.386: vcpu-0| SVGA: Registering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Apr 17 23:40:15.401: vcpu-0| SVGA: Unregistering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Apr 17 23:40:15.580: vcpu-0| SVGA: Registering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Apr 17 23:40:15.588: vcpu-0| SVGA: Unregistering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Apr 17 23:40:15.591: vcpu-0| SVGA: Registering IOSpace at 0x10d0
+Apr 17 23:40:15.591: vcpu-0| SVGA: Registering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Apr 17 23:40:15.598: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.600: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.601: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.603: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.604: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.606: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.607: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.609: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.610: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.612: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.613: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.615: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.616: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.618: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.619: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.621: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.622: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.624: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.625: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.627: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.628: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.630: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.631: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.633: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.634: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.636: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.637: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.639: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.640: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.642: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.643: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.645: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.894: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.895: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.897: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.898: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.900: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.901: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.903: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.904: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.906: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.907: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.909: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.910: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.912: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.914: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.915: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.917: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.918: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.920: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.921: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.923: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.924: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.926: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.928: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.929: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.931: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.932: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.935: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.936: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.938: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.939: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.941: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.942: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:15.952: vcpu-0| DISKUTIL: scsi0:0 : geometry=261/255/63
+Apr 17 23:40:15.953: vcpu-0| DISKUTIL: scsi0:0 : capacity=4194304
+Apr 17 23:40:15.955: vcpu-0| SCSI0: RESET BUS
+Apr 17 23:40:16.039: vcpu-0| BIOS-UUID is 56 4d 0b d7 4f 03 75 65-fb 02 5f 6f 9b 17 84 d3
+Apr 17 23:40:16.442: mks| HostOps hideCursor before defineCursor!
+Apr 17 23:40:17.201: mks| HostOps hideCursor before defineCursor!
+Apr 17 23:40:17.233: mks| HostOps hideCursor before defineCursor!
+Apr 17 23:40:18.009: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:40:18.017: mks| Setting thread 41 stack size to 1048576.
+Apr 17 23:40:18.021: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:40:18.989: mks| HostOps hideCursor before defineCursor!
+Apr 17 23:40:20.372: vcpu-0| SVGA: Unregistering IOSpace at 0x10d0
+Apr 17 23:40:20.372: vcpu-0| SVGA: Registering IOSpace at 0xfffffff0
+Apr 17 23:40:20.372: vcpu-0| SVGA: Unregistering IOSpace at 0xfffffff0
+Apr 17 23:40:20.372: vcpu-0| SVGA: Registering IOSpace at 0x10d0
+Apr 17 23:40:20.413: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.413: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.413: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.414: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.414: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.414: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.414: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.415: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.415: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.416: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.416: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.416: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.417: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.417: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.417: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.418: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.418: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.418: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.418: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.419: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.419: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.419: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.419: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.420: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.420: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.420: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.420: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.421: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.421: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.422: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.422: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.422: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.422: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.423: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.423: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.423: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.424: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.424: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.424: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.425: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.425: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.425: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.425: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.426: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.426: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.426: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.426: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.427: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.427: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.427: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.427: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.428: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.428: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.428: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.428: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.429: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.429: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.429: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.430: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.430: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.430: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.431: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.431: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.431: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.431: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.431: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.431: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.431: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.431: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.431: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.432: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.432: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.432: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.432: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.432: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.432: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.432: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.432: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.432: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.432: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.432: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.432: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.432: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.432: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.432: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.432: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.432: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.432: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.432: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.432: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.432: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.432: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.432: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.433: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.433: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.433: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.433: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.433: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.433: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.433: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.433: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.433: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.433: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.433: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.433: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.433: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.433: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.433: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.433: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.433: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.433: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.433: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.433: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.433: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.433: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.433: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.434: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.434: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.434: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.434: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.434: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.434: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.434: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.434: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.434: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.434: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.434: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:20.434: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.040: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.041: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.041: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.041: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.041: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.041: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.041: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.041: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.042: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.042: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.042: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.042: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.042: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.043: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.043: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.043: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.043: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.043: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.043: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.044: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.044: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.044: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.044: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.044: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.044: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.045: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.045: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.045: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.045: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.045: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.045: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.046: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Apr 17 23:40:21.060: vcpu-0| UHCI: HCReset
+Apr 17 23:40:21.611: vcpu-0| UHCI: HCReset
+Apr 17 23:40:23.803: vcpu-0| SCSI0: RESET BUS
+Apr 17 23:40:24.173: vcpu-0| SCSI0: RESET BUS
+Apr 17 23:40:24.212: vcpu-0| SCSI DEVICE (scsi0:0): MODE SENSE(6) for unsupported page 0x8
+Apr 17 23:40:24.254: vcpu-0| SCSI DEVICE (scsi0:0): MODE SENSE(6) for unsupported page 0x8
+Apr 17 23:40:24.295: vcpu-0| SCSI DEVICE (scsi0:0): MODE SENSE(6) for unsupported page 0x8
+Apr 17 23:40:26.171: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:40:35.205: vcpu-0| VIDE: Truncating 0x46 from 65530 bytes to 32768
+Apr 17 23:40:35.205: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Apr 17 23:40:36.070: vcpu-0| SCSI DEVICE (scsi0:0): No transfer information for *UNKNOWN (0x85)* (0x85)
+Apr 17 23:40:36.070: vcpu-0| SCSI (scsi0:0): SCSI-3 16-byte CDB format not supported (LUN 0).
+Apr 17 23:40:36.070: vcpu-0| SCSI DEVICE (scsi0:0): No transfer information for *UNKNOWN (0x85)* (0x85)
+Apr 17 23:40:36.070: vcpu-0| SCSI (scsi0:0): SCSI-3 16-byte CDB format not supported (LUN 0).
+Apr 17 23:40:36.070: vcpu-0| SCSI DEVICE (scsi0:0): No transfer information for *UNKNOWN (0x85)* (0x85)
+Apr 17 23:40:36.070: vcpu-0| SCSI (scsi0:0): SCSI-3 16-byte CDB format not supported (LUN 0).
+Apr 17 23:40:36.208: mks| HostOps hideCursor before defineCursor!
+Apr 17 23:40:37.146: vcpu-0| SOUND 147.440704 PCISoundWin32 mixerGetLineInfo error 1024
+Apr 17 23:40:43.526: vcpu-0| GuestRpc: Channel 0, guest application toolbox.
+Apr 17 23:40:43.874: vcpu-0| TOOLS ToolsCapabilityGuestTempDirectory received 1 /tmp/vmware-root
+Apr 17 23:40:43.875: vcpu-0| TOOLS autoupgrade protocol version 2
+Apr 17 23:40:43.875: vcpu-0| TOOLS ToolsCapabilityGuestConfDirectory received /etc/vmware-tools
+Apr 17 23:40:43.876: vcpu-0| ToolsSetVersionWork did nothing; new tools version (8227) matches old Tools version
+Apr 17 23:40:43.876: vcpu-0| TOOLS soft reset detected.
+Apr 17 23:40:43.876: vcpu-0| TOOLS Setting autoupgrade-checked FALSE.
+Apr 17 23:40:43.876: vcpu-0| Starting copy guest manifest to local C:\Users\Euan\AppData\Local\Temp\vmware-Euan\manifest.txt.1 path.
+Apr 17 23:40:44.259: vcpu-0| Compared tools manifest from host and from the guest. Status = 2.
+Apr 17 23:40:44.260: vcpu-0| VMXVmdb_SetToolsVersionState: status value set to 'ok'
+Apr 17 23:40:44.260: vcpu-0| TOOLS installed legacy version 8227, available legacy version 8227
+Apr 17 23:40:44.260: vcpu-0| TOOLS manifest update status is 2 (1-out of date, 2-ok, 3-no tools, 4-unmanaged, 5-unknown)
+Apr 17 23:40:44.260: vcpu-0| TOOLS will not be autoupgraded.
+Apr 17 23:40:44.260: vcpu-0| TOOLS Setting autoupgrade-checked TRUE.
+Apr 17 23:40:44.302: vcpu-0| TOOLS unified loop capability requested by 'toolbox'; now sending options via TCLO
+Apr 17 23:40:44.302: vcpu-0| Guest: toolbox: Version: build-203739
+Apr 17 23:40:59.764: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:40:59.764: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:41:00.714: mks| Setting thread 41 stack size to 1048576.
+Apr 17 23:41:10.890: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:41:45.214: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:41:45.214: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:41:46.386: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:41:51.866: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:41:51.866: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:42:02.771: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:42:14.082: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:42:14.082: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:42:15.018: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:42:16.777: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:42:16.779: mks| Setting thread 41 stack size to 1048576.
+Apr 17 23:42:16.785: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:42:24.002: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:42:34.148: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:42:34.148: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:42:35.559: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:43:26.887: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:43:26.888: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:43:28.730: mks| Setting thread 41 stack size to 1048576.
+Apr 17 23:43:45.066: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:45:08.368: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:45:08.368: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:45:09.526: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:45:31.787: mks| USBGW: Write arbitrator op:13 len:26
+Apr 17 23:45:31.788: mks| Setting thread 39 stack size to 1048576.
+Apr 17 23:45:32.578: mks| Setting thread 41 stack size to 1048576.
+Apr 17 23:45:44.634: vcpu-0| TOOLS autoupgrade protocol version 0
+Apr 17 23:45:44.635: vcpu-0| TOOLS ToolsCapabilityGuestTempDirectory received 0
+Apr 17 23:45:44.635: vcpu-0| GuestRpc: Reinitializing Channel 0(toolbox)
+Apr 17 23:45:44.635: vcpu-0| GuestRpc: Channel 0 reinitialized.
+Apr 17 23:45:45.769: vcpu-0| VLANCE: Reserved value written to sstyle register 4
+Apr 17 23:45:47.261: vcpu-0| UHCI: HCReset
+Apr 17 23:45:47.304: vcpu-0| PIIX4: PM Soft Off.  Good-bye.
+Apr 17 23:45:47.322: vmx| Stopping VCPU threads...
+Apr 17 23:45:47.338: mks| Ending MKSRole pseudocalls, state was 1
+Apr 17 23:45:47.338: mks| Detaching from window system.
+Apr 17 23:45:47.340: mks| MKS: Base polling period is 1000000us
+Apr 17 23:45:47.340: mks| Async MKS thread is exiting
+Apr 17 23:45:47.341: vmx| Vix: [1364 mainDispatch.c:912]: VMAutomation_PowerOff: Powering off.
+Apr 17 23:45:47.341: vmx| TOOLS received request in VMX to set option 'enableDnD' -> '0'
+Apr 17 23:45:47.341: vmx| TOOLS received request in VMX to set option 'copypaste' -> '0'
+Apr 17 23:45:47.341: vmx| TOOLS received request in VMX to set option 'copypaste' -> '0'
+Apr 17 23:45:47.344: vmx| VMXVmdb_SetToolsVersionState: status value set to 'ok'
+Apr 17 23:45:47.350: vmx| HostOps hideCursor before defineCursor!
+Apr 17 23:45:47.390: vmx| MKS local poweroff
+Apr 17 23:45:47.390: usbCCIDEnumCards| USB-CCID: Card enum thread exiting.
+Apr 17 23:45:47.425: vmx| scsi0:0: numIOs = 18580 numMergedIOs = 1467 numSplitIOs = 132 ( 8.3%)
+Apr 17 23:45:47.445: vmx| AIOWIN32C: asyncOps=17606 syncOps=16 bufSize=0Kb fixedOps=0 sgOps=17362 sgOn=1
+Apr 17 23:45:47.445: aioCompletion| AIO thread processed 17606 completions
+Apr 17 23:45:47.446: vmx| AIOWIN32: asyncOps=0 syncOps=0 bufSize=0Kb delayed=0 fixed=0 sgOp=0 sgOn=1
+Apr 17 23:45:47.602: vmx| WORKER: asyncOps=15 maxActiveOps=1 maxPending=0 maxCompleted=0
+Apr 17 23:45:47.716: vmx| Vix: [1364 mainDispatch.c:3485]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1
+Apr 17 23:45:47.716: vmx| Vix: [1364 mainDispatch.c:3491]: VMAutomation: Ignoring ReportPowerOpFinished because the VMX is shutting down.
+Apr 17 23:45:47.775: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Apr 17 23:45:47.814: vmx| Vix: [1364 mainDispatch.c:3485]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1
+Apr 17 23:45:47.814: vmx| Vix: [1364 mainDispatch.c:3491]: VMAutomation: Ignoring ReportPowerOpFinished because the VMX is shutting down.
+Apr 17 23:45:47.814: vmx| Transitioned vmx/execState/val to poweredOff
+Apr 17 23:45:47.818: vmx| VMX idle exit
+Apr 17 23:45:47.818: WinNotifyThread| WinNotify thread exiting
+Apr 17 23:45:47.820: vmx| Vix: [1364 mainDispatch.c:644]: VMAutomation_LateShutdown()
+Apr 17 23:45:47.820: vmx| Vix: [1364 mainDispatch.c:594]: VMAutomationCloseListenerSocket. Closing listener socket.
+Apr 17 23:45:47.821: vmx| Flushing VMX VMDB connections
+Apr 17 23:45:47.828: vmx| VMX exit (0).
+Apr 17 23:45:47.828: vmx| AIOMGR-S : stat o=2 r=12 w=0 i=0 br=111616 bw=0
+Apr 17 23:45:47.828: vmx| FileTrack_Exit: done
